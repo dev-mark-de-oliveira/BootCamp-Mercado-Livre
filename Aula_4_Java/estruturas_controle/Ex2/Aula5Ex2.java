@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner6;
-
 public class Aula5Ex2 
 { 
     public static float acrescimoEmPorcentagem (float f)
@@ -27,12 +25,12 @@ public class Aula5Ex2
 
         salario = input.nextFloat();
 
-        if (salario < 45000.00)
+        if (salario > 45000.00)
         {
             aumento = 1.05f;
         }
 
-        else if (salario >= 20000.00)
+        else if (salario <= 20000.00)
         {
             aumento = 1.20f;
         }
@@ -50,7 +48,10 @@ public class Aula5Ex2
             aumento*salario
 
             
+            
         );
-        //corrigir!
+
+        input.close();
+        
     }    
 }
