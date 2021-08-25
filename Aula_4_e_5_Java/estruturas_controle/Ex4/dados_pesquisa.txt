@@ -1,0 +1,54 @@
+Aarão Pereira;false;false;true;
+Ana Silva;true;false;false
+Bárbara Paz;false;true;false
+Bruno Andreas;true;false;false
+Bruno Silva Amorim;false;false;false
+Camila Weingarten;false;false;true
+Célio Antunes;false;true;false
+Clara nunes Diva;false;true;true
+Cristiano Ronaldo;true;true;true
+Diana Ártemis;false;true;true
+Dornelles Silva;false;false;true;
+Durval Silva;false;false;false
+Elena de oliveira;true;false;false
+Felipe Souza;true;true;false
+Flávia Amancini;false;true;true
+Felipe Alex da Silva;true;false;false
+Gisele Silva de Castro;false;true;false
+Hilda Tornado;true;true;false
+Hugo Victor Manfredini;false;false;false
+Íngrid Clara;false;true;true
+João Silva Santos;false;false;true
+José da Silva;false;true;false
+José da Silva Krüger;true;true;false
+Maria da Silva;true;false;true
+Maria da Conceição;true;true;false
+Maurício Mouro Bérbere;false;true;true
+Nivaldo Lima Eonomi Real;false;false;true;
+Olívia Styk;false;true;false
+Otávio Brito;true;true;false
+Pabblo vittar;false;true;false
+Pedro da Silva Camilo;true;false;true
+Patrícia Leite;false;false;false
+Pedro Bezerra da Costa;true;true;false
+Pedro Figueira;true;true;false
+Poliana Braga;false;true;true
+Quitéria Santa;true;true;true
+Rebeca Schwarz;true;false;true
+Ricardo Melo;true;true;false
+Ricardo nunes;false;false;false
+Samara Figueira;false;false;true;
+Selena Gomez;true;false;false
+Simone Eunice;false;true;true
+Tarso de Atenas;false;false;true;
+Valdirene Silva;true;true;false;
+Valentina Gomes;true;true;true
+Victor Gomes;false;false;false
+Wagner Silva;false;false;true
+Wellington William;true;false;true
+Xavier de Maïstre;true;true;true
+Zilda Silva;true;false;true
+
+
+
+
