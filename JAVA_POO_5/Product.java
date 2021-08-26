@@ -10,6 +10,16 @@ que multiplicar o preço pela quantidade de produtos anteriores. */
 
     private String name;
     private double price;
+    private int quantidadeOfProdutos = 0;
+
+    public int getQuantidadeOfProdutos() {
+        return this.quantidadeOfProdutos;
+    }
+
+    public void setQuantidadeOfProdutos(int quantidadeOfProdutos) {
+        this.quantidadeOfProdutos = quantidadeOfProdutos;
+    }
+    
 
 
     public String getName() {
@@ -37,15 +47,16 @@ que multiplicar o preço pela quantidade de produtos anteriores. */
                 "\n}";
     }
 
-    public Product(String name, double price)
+    public Product(String name, double price, int quantidadeOfProdutos)
     {
         this.name = name;
         this.price = price;
+        this.quantidadeOfProdutos = quantidadeOfProdutos;
     }
 
     public Product(){}
 
-    public double calcule (int quantidadeOfProdutos)
+    public double calcule ()
     {
         return (double)quantidadeOfProdutos * getPrice();
     }

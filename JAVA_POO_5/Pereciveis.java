@@ -14,22 +14,23 @@ public class Pereciveis extends Product {
         this.daysPorCaducar = daysPorCaducar;
     }
     
-    public Pereciveis (String name, double price, int daysPorCaducar)
+    public Pereciveis (String name, double price, int quantidadeOfProdutos, int daysPorCaducar)
     
     {
-        super(name, price);
+        super(name, price, quantidadeOfProdutos);
         this.daysPorCaducar = daysPorCaducar;
     }
 
     @Override
-    public double calcule (int quantidadeOfProdutos)
+    public double calcule ()
     {
-        double valorProd = super.calcule(quantidadeOfProdutos);
+        double valorProd = super.calcule();
 
         switch (daysPorCaducar)
         {
             case 1:
             {
+                
                 valorProd /= 4;
                 break;
             }
