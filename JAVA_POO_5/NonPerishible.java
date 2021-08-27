@@ -16,6 +16,18 @@ public class NonPerishible extends Product
         this.type = type;
     }
 
+    @Override
+    public String toString() 
+    {
+        return 
+                     
+            super.toString()
+            +   "\tTipo.: "
+            + getType();
+                
+                // return super.toString + "\tvalidade:\t " + daysPorCaducar
+    }
+
     
     
 

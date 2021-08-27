@@ -59,11 +59,11 @@ public class Pereciveis extends Product {
     @Override
     public String toString() 
     {
-        return "Product{" +
-                "\tnome:\t" + super.getName() + "\n" +
-                "\tpreco:\t " + super.getPrice() +
-                "\tdias para vencimento:\t " + daysPorCaducar +
-                "\n}";
+        return 
+                     
+            super.toString()
+            +   "\td_venc.:  "
+            + daysPorCaducar;
                 
                 // return super.toString + "\tvalidade:\t " + daysPorCaducar
     }

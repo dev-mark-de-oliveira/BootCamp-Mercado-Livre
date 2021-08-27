@@ -39,12 +39,15 @@ que multiplicar o preço pela quantidade de produtos anteriores. */
     }
 
 
-    @Override
-    public String toString() {
-        return "Product{" +
-                "\tnome:\t" + name + ",\n" +
-                "\tpreco:\t " + price +
-                "\n}";
+    
+    public String toString() 
+    {
+        return 
+                    "\tNome: "         +   getName()
+                +   "\tQtde.: "   +   getQuantidadeOfProdutos()
+                +   "\tPr_Unt.: "  +   String.format("R$ %.2f", getPrice())
+                +   "\tPr_Tot.: " +   String.format("R$ %.2f", calcule())
+                ;
     }
 
     public Product(String name, double price, int quantidadeOfProdutos)
