@@ -61,7 +61,7 @@ que multiplicar o preço pela quantidade de produtos anteriores. */
 
     public double calcule ()
     {
-        return (double)quantidadeOfProdutos * getPrice();
+        return (double)getQuantidadeOfProdutos() * getPrice();
     }
 
 
