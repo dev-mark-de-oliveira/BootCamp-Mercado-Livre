@@ -2,38 +2,55 @@ public class Participante
 {
     private String rG;
     private String nome;
-    private String telefone;
-    private String tipoSang;
+    private String sobrenome;
     private int idade;
-    private int codArea;
-    private int rawTelef;
-    final private int codInscr;
+    private String telefoneProprio;
+    private String telefoneEmergencia;
+    private String tipoSang;    
+    private final int codInscr;
+    private Circuito c;
 
-    
+    public Circuito getC() {
+        return c;
+    }
 
-    public Participante 
+    public void setC(Circuito c) {
+        this.c = c;
+    }
+
+
+    public Participante
     (
         String rG,
-        String nome,
+        String nome, 
+        String sobrenome,
+        int idade, 
+        String telefoneProprio, 
+        String telefoneEmergencia,
         String tipoSang,
-        int idade,
-        int codArea, 
-        int rawtelef,
-        int condInscr
+        int codInscr,
+        Circuito c
+        
     )
+    
     {
         this.rG = rG;
         this.nome = nome;
-        this.tipoSang = tipoSang;
+        this.sobrenome = sobrenome;
         this.idade = idade;
-        this.telefone = "(" + codArea + ") " + rawtelef;
-        this.codInscr = condInscr;
+        this.telefoneProprio = telefoneProprio;
+        this.telefoneEmergencia = telefoneEmergencia;
+        this.tipoSang = tipoSang;
+        this.codInscr = codInscr;
+        this.c = c;
     }
 
-    public int getCodInsc()
-    {
-        return codInscr;
-    }
+
+
+    public int getCodInscr (){
+		return codInscr;
+	}
+
 
     public String getRG() {
         return this.rG;
@@ -51,20 +68,12 @@ public class Participante
         this.nome = nome;
     }
 
-    public String getTelefone() {
-        return this.telefone;
+    public String getSobrenome() {
+        return this.sobrenome;
     }
 
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
-    public String getTipoSang() {
-        return this.tipoSang;
-    }
-
-    public void setTipoSang(String tipoSang) {
-        this.tipoSang = tipoSang;
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
     }
 
     public int getIdade() {
@@ -75,20 +84,33 @@ public class Participante
         this.idade = idade;
     }
 
-    public int getCodArea() {
-        return this.codArea;
+    public String getTelefoneProprio() {
+        return this.telefoneProprio;
     }
 
-    public void setCodArea(int codArea) {
-        this.codArea = codArea;
+    public void setTelefoneProprio(String telefoneProprio) {
+        this.telefoneProprio = telefoneProprio;
     }
 
-    public int getRawTelef() {
-        return this.rawTelef;
+    public String getTelefoneEmergencia() {
+        return this.telefoneEmergencia;
     }
 
-    public void setRawTelef(int rawTelef) {
-        this.rawTelef = rawTelef;
+    public void setTelefoneEmergencia(String telefoneEmergencia) {
+        this.telefoneEmergencia = telefoneEmergencia;
     }
+
+    public String getTipoSang() {
+        return this.tipoSang;
+    }
+
+    public void setTipoSang(String tipoSang) {
+        this.tipoSang = tipoSang;
+    }
+
     
-}    
+   
+
+}
+
+    
