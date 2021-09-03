@@ -1,3 +1,4 @@
+package JAVA_POO_2.Estruturas_Dinamicas.CorridaNaSelva;
 public class Participante
 {
     private String rG;

@@ -1,3 +1,5 @@
+package JAVA_POO_3.PI_dakar;
+
 interface SocorroMoto
 { 
     public void socorrer(Moto m);

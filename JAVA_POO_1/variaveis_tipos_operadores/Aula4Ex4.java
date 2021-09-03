@@ -1,4 +1,6 @@
-import java.io.LineNumberInputStream;
+package JAVA_POO_1.variaveis_tipos_operadores;
+
+//import java.io.LineNumberInputStream;
 import java.util.Scanner;
 import java.io.IOException;
 //import jdk.javadoc.internal.doclets.formats.html.resources.standard;

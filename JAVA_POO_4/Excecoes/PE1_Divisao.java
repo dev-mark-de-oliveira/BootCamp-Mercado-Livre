@@ -1,4 +1,4 @@
-package Excecoes;
+package JAVA_POO_4.Excecoes;
 public class PE1_Divisao 
 {
 

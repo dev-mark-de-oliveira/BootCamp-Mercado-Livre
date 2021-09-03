@@ -1,4 +1,4 @@
-package JAVA_POO_2.Estruturas_Dinamicas.CorridaNaSelva;
+package JAVA_POO_5.PI_Carros;
 public  class Circuito
 {
     private final int km_dis;

@@ -1,4 +1,4 @@
-package Pessoa;
+package JAVA_POO_4.Pessoa;
 public class Main 
 {
     public static void main(String[] args)

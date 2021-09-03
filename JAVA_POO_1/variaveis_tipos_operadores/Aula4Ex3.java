@@ -1,3 +1,5 @@
+package JAVA_POO_1.variaveis_tipos_operadores;
+
 import java.util.Scanner;
 import java.io.IOException;
 

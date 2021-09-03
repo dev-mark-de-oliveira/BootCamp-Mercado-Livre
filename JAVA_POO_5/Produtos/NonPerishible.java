@@ -1,4 +1,4 @@
-package Produtos;
+package JAVA_POO_5.Produtos;
 public class NonPerishible extends Product
 {
     private String type;

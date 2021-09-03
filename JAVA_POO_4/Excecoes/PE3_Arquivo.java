@@ -1,4 +1,4 @@
-package Excecoes;
+package JAVA_POO_4.Excecoes;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -47,7 +47,7 @@ public class PE3_Arquivo
     public static void main(String[] args)
     {
         String arquivoInexistente = "arquivoinexistente.txt";
-        String cores = "cores.txt";
+        String cores = "JAVA_POO_4/Excecoes/coresa.txt/";
 
         try
         {   System.out.println("\nTentando ler o arquivo: \""+ arquivoInexistente +"\"");

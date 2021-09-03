@@ -1,4 +1,4 @@
-package Produtos;
+package JAVA_POO_5.Produtos;
 
 
 public class Pereciveis extends Product {

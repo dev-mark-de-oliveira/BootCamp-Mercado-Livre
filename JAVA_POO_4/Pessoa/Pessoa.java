@@ -1,4 +1,4 @@
-package Pessoa;
+package JAVA_POO_4.Pessoa;
 public class Pessoa 
 {
     private String nome;

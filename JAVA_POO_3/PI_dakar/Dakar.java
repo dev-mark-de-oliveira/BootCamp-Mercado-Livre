@@ -1,3 +1,5 @@
+package JAVA_POO_3.PI_dakar;
+
 import java.util.ArrayList;
 import java.util.List;
 

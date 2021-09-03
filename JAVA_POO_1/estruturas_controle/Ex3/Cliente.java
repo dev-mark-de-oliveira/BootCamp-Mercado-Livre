@@ -1,3 +1,5 @@
+package JAVA_POO_1.estruturas_controle.Ex3;
+
 public class Cliente 
 {
     private final String nome;

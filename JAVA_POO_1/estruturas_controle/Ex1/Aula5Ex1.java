@@ -1,3 +1,5 @@
+package JAVA_POO_1.estruturas_controle.Ex1;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -88,6 +90,7 @@ for (Fabrica fabrica : listaFabricas)
 
     }
 
+    input.close();
 
     }    
 

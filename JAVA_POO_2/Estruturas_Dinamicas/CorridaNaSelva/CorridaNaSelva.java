@@ -1,3 +1,5 @@
+package JAVA_POO_2.Estruturas_Dinamicas.CorridaNaSelva;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -39,15 +41,11 @@ public class CorridaNaSelva {
         Circuito c                      = null;
         int codInscr                    = l.get(l.size()-1).getCodInscr()+1;
         float taxa                            ;
-        int indiceMaxLista              =    0;
+     
                    
 
         
 
-        if (l.size() > 0)
-        {
-            indiceMaxLista = l.get(l.size()-1).getCodInscr();
-        }
 
         Scanner inp2 = new Scanner(System.in);
         
@@ -396,7 +394,6 @@ public class CorridaNaSelva {
 
 
     }
-
 
     public static void main(String[] args) 
     {

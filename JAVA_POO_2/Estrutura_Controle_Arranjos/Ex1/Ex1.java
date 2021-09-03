@@ -1,3 +1,5 @@
+package JAVA_POO_2.Estrutura_Controle_Arranjos.Ex1;
+
 public class Ex1 
 {
     public static void main(String[] args) 

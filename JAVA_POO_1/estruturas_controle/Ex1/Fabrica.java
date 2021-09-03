@@ -1,4 +1,4 @@
-
+package JAVA_POO_1.estruturas_controle.Ex1;
 
 public class Fabrica 
 {

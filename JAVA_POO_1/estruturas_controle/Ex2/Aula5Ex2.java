@@ -1,3 +1,5 @@
+package JAVA_POO_1.estruturas_controle.Ex2;
+
 import java.util.Scanner;
 
 public class Aula5Ex2 
@@ -9,7 +11,7 @@ public class Aula5Ex2
     public static void main(String[] args) 
     {
         String rg;
-        String bigBreak = "\n\n____________________________________\n\n";      
+        //String bigBreak = "\n\n____________________________________\n\n";      
         
         float salario;
         float aumento;

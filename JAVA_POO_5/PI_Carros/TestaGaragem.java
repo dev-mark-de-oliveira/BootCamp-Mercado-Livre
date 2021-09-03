@@ -1,4 +1,4 @@
-package PI_Carros;
+package JAVA_POO_5.PI_Carros;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -17,7 +17,7 @@ public class TestaGaragem
         final String sepRegEx = ";";
         String linha = "";
         
-        BufferedReader bufferedReader = new BufferedReader ( new FileReader("PI_Carros/lista_carros.txt"));
+        BufferedReader bufferedReader = new BufferedReader ( new FileReader("JAVA_POO_5/PI_Carros/lista_carros.txt"));
         
         while((linha = bufferedReader.readLine()) != null) 
         {

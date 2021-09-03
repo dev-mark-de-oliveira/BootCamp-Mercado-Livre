@@ -1,6 +1,6 @@
+package JAVA_POO_1.variaveis_tipos_operadores;
 public class Aula4Ex2 
 {
-
     public static void main (String[]args)
     {
         String delimit = "\n--------------------------------------------\n";
