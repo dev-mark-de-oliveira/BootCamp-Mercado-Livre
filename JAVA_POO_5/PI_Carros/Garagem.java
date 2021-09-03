@@ -26,10 +26,12 @@ public class Garagem
         controlId++;
     }
 
-    public List<Vehicle> getListaCarros()
+    public ArrayList<Vehicle> getListaCarros()
     {
        
-       return List.copyOf(listaCarros);
+        ArrayList<Vehicle> ret = new ArrayList<>();
+        ret.addAll(listaCarros);
+        return ret;
     }
 
     public void addCarro(Vehicle v)
