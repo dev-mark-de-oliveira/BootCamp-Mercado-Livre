@@ -1,3 +1,4 @@
+package Produtos;
 public class NonPerishible extends Product
 {
     private String type;
